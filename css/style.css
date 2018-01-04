@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1900px;
+  margin: 0 auto;
+}
+header {
+  background: url("https://preview.ibb.co/frYb7G/bg.jpg") no-repeat center top/cover;
+position:relative;
+}
+.heading {
+  width:1170px;
+  height:100px;
+  background: url("https://preview.ibb.co/bAmBPw/bgban.png");
+  margin:0 auto;
+  left:0;
+  right:0;
+  position:fixed;
+  opacity:0.7;
+  border-bottom: 1px solid #979797;
+  padding-top:45px
+}
+.heading .logo {
+  float:left;
+}
+.heading nav {
+  float:right;
+}
+.heading ul a {
+  text-decoration: none;
+  color: #fff;
+}
+header h1 {
+  width:63%;
+  margin:0 auto;
+	font-family: "OpenSans", sans-serif;
+	font-size: 65px;
+	font-weight: 600;
+	line-height: 71px;
+	text-align: center;
+	color: #ffffff;
+  text-transform: uppercase;
+  padding-top: 156px;
+  padding-left:px;
+  padding-bottom:25px;
+}
+.heading ul li {
+  list-style-type:none;
+	opacity: 0.75;
+	font-family: Raleway;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: left;
+	color: rgba(255, 255, 255, 0.75);
+  text-transform: uppercase;
+  float: left;
+  margin-left: 60px;
+}
+header p {
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	line-height: 33px;
+	text-align: center;
+	color: #ffffff;
+  width: 70%;
+  letter-spacing:0.05em;
+  margin:0 auto;
+  padding-bottom: 67px;
+
+}
+.button {
+  display: block;
+  width: 200px;
+  height: 46px;
+  border-radius: 2px;
+	background-color:#e84545;
+  font-family: "Raleway", sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 21px;
+	text-align: center;
+	color: #ffffff;
+  margin:0 auto;
+  padding: 15px 0;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.heading2 {
+  padding-bottom:156px;
+}
+.features {
+  width: 80%;
+  height: auto;
+/*   background: blue; */
+  margin: 0 auto;
+  padding-top:30px;
+}
+.feature {
+  display:block;
+  width: 33%;
+  float: left;
+/*   background: gray; */
+  margin-left:3px;
+  margin-top:90px;
+}
+.feature:nth-child(1),
+.feature:nth-child(4) {
+  margin-left:5px;
+}
+
+.feature img {
+/*   background: green; */
+  display: block;
+  margin: 0 auto;
+/*   padding-bottom:px; */
+  
+}
+.feature h2 {
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #2d3033;
+  text-transform: uppercase;
+  padding-bottom:25px;
+  padding-top:34px;
+}
+.feature p {
+	font-family: Raleway;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	color: #6c7279;
+}
+.works {
+  max-width:100%;
+  margin-top:95px;
+}
+.work {
+  width: 25%;
+  float:left;
+  overflow: hidden;
+  outline: #fff solid 1px; 
+ 
+}
+.work::hover {
+  background:
+  content:
+}
+.work img{
+  
+  float:left;
+  min-width:100%;
+  height:100%;
+
+}
+.clearfix::after {
+  content:"";
+  display: block;
+  clear:both;
+}
+footer {
+  width: 100%;
+}
+.contacts {
+  max-width:100%;
+  background-color: #3a3e64;
+  text-align:justify;
+  margin-top: 0px;
+  padding-bottom:90px;
+  padding-top:48px;
+  margin: 0 auto;
+}
+.addrow::after {
+  content:"";
+  display:block;
+}
+.contacts__location,
+.contacts__social,
+.contacts__about {
+  display:inline-block;
+  text-align: center;
+/*   background: red; */
+  vertical-align: top;
+  margin-top: 20px;
+}
+.contacts__location {
+  margin-left:250px;
+}
+.contacts__social {
+  margin-left:235px;
+}
+.contacts__about {
+  margin-left:150px;
+}
+
+.contacts__about {
+  width:328px;
+}
+.contacts__social ul li {
+  display:inline-block;
+  width:40px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius:2px;
+  vertical-align:top;
+  margin-left:3px;
+}
+.contacts__social ul li img {
+  vertical-align:top;
+  padding-top: 12px;
+/*   background: green; */
+}
+
+.contacts h2 {
+  text-transform: uppercase;
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+  padding-bottom: 21px;
+
+}
+.copyright {
+	background-color: #313454;
+  text-align:center;
+}
+.copyright p {
+  font-family: Raleway;
+	font-size: 14px;
+  line-height: 22.5px;
+	text-align: center;
+	color:#808080;
+  padding-top: 29px;
+  padding-bottom:29px;
+}
+.copyright span {
+  color:#fff;
+  line-height: 22.5px;
+}
+/* .work:nth-child(4n) {
+  margin-right: 0px;
+
+} */
